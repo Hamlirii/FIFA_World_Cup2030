@@ -1,73 +1,67 @@
 @import url("https://fonts.googleapis.com/css2?family=Anybody:ital@1&family=Brygada+1918:ital@1&family=Inter:wght@100&family=Irish+Grover&family=Italianno&family=Playfair+Display:ital@1&family=Poppins:wght@300;400;700&display=swap");
 * {
-  font-family: "anybody";
+  font-family: "Poppins";
   margin: 0;
   overflow-x: hidden;
 }
 
 img {
+  /* width: 100px;
+  position: absolute;
+  padding-top: 1%;
+  padding-left: 1%; */
+
+  width: 50px;
+}
+.logoo {
   width: 100px;
   position: absolute;
   padding-top: 1%;
   padding-left: 1%;
 }
-.container1{
+
+.container1 {
   color: white;
-  background-image: url(BG.jpg);
+  background-image: url(../fifa/pic/kk.webp);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
-  text-align: center;
 }
-.titre{
-  padding-top: 15%;
-  background-color: rgba(0, 0, 0, 0.477);
-  width: 100vw;
-  height: 100vh;
-  padding-left: 10%;
-  padding-right: 10%;
+.titre {
+  color: black;
+  padding-left: 9%;
+  padding-top: 11%;
+  font-weight: bold;
 }
-.groupe{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  /* background-color:rgba(0, 100, 0, 0.555) */
-}
-.btns{
+.btns {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  /* background-color:rgba(0, 100, 0, 0.555); */
   padding-top: 5%;
 }
-button{
+button {
   background-color: rgba(0, 128, 0, 0.276);
   width: 100px;
   height: 50px;
   border-radius: 10px;
-  border:rgba(255, 0, 0, 0.626) 2px solid;
+  border: rgba(255, 0, 0, 0.626) 2px solid;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   margin-bottom: 5%;
 }
 
-
 button:hover {
-  background-color:rgba(255, 0, 0, 0.626);
+  background-color: rgba(255, 0, 0, 0.626);
   cursor: pointer;
   border: darkgreen 2px solid;
 }
-
-
-.carte{
+.carte {
   margin: 5px;
+  width: 30%;
 }
-
-
-
-/* @media screen and (max-width: 767px) {} */
-
- 
+.groupe{
+  display: flex;
+  justify-content: center;
+}
